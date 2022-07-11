@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <style>
+        div {
+            background: rgb(106, 185, 238);
+            margin: 50px 30px 10px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(250, 246, 248);
+            font-size: 34px;
+            line-height: 48px;
+            font-family: Helvetica, Arial, sans-serif;
+            border: 3px solid #fff;
+            display: inline-block;
+            padding: 1px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0;
+            text-align: center;
+            color: white;
+            font-size: 34px;
+            line-height: 48px;
+            font-weight: 400;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.7;
+            text-align: center;
+            font-family: monospace;
+            color: white;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #1a64d6;
+            background: #1a64d6;
+            color: #fff;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            transition: all 200ms ease;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: white;
+            color: #1a64d6;
+            border: 1px solid #1a64d6;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>
+            JUICE DIET
+        </h1>
+        <h2>
+            4 Steps Juice Diet
+        </h2>
+        </p>
+        <hr>
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/038/390/original/Depositphotos_106658478_m-2015.jpg?1656073743"
+            alt="FreshJuice2" width=500px />
+        <hr>
+        <p>
+            <strong>
+                Fasting juice, </strong> also known as cleansing juice, is a fad diet in which a person consumes only
+            fruit
+            and vegetable juices
+            while avoiding solid foods. It is used for detoxification, alternative medicine treatments, and is often
+            part of
+            detox
+            diets. The diet can typically last two to seven days and include a range of fruits and vegetables and even
+            spices not
+            found among the juices commonly sold or consumed as part of the average Western diet. Sometimes the diet is
+            promoted
+            with implausible and unsubstantiated health claims.
+        <p>
+            <strong>Juices are often consumed for their purported health benefits. </strong> For example, orange juice
+            with
+            natural or added vitamin
+            C, folic acid, and potassium. Juice contains nutrients such as carotenoids, polyphenols, and vitamin C that
+            are
+            beneficial to health.
+
+            High consumption of fruit juice with added sugar may be associated with weight gain, but not all studies
+            have
+            shown
+            this
+            effect. If 100% fruit juice, it may help meet the recommended daily intake of some nutrients.
+        </p>
+        <p>
+            <strong>The juice diet focuses on drinking fruit and vegetable juices throughout the day. </strong> It is
+            impossible
+            to stay on such a diet for more than five days. It is especially important to go on a juice diet after a
+            feast,
+            or
+            vice versa, before
+            going on vacation, when it is important to get a slim figure in a short time.
+        </p>
+        <p>
+            <strong>
+                Juice diet has a healing effect. </strong> A rich vitamin complex cleanses the intestines, helps to
+            eliminate
+            toxins, improves
+            metabolism and speeds up metabolism. On such a diet, it is tasty and easy to lose weight.
+        </p>
+        <p>
+            <strong>
+                The juice diet gives you the opportunity to try different recipes, enjoy bright colors and flavors, and
+                show
+                your
+                imagination. </strong> You are free to choose almost any combination of fruits and vegetables for a
+            juice
+            detox.
+            Did you enjoy
+            experimenting with baking during the holidays? Now it's time to experiment with delicious juices!
+        </p>
+        <a href="https://wiki5.ru/wiki/Juice_fasting/">Read on Wikipegia</a>
+        <button>
+            Start Losing Weight
+        </button>
+        <script>
+            function contuckUs() {
+                let name = prompt("What is your name?");
+                if (name.length) {
+                    alert('Thanks, ' + name + ' , we will be in touch. You apply to JUICE DIET!')
+                } else {
+                    alert('No name, You cannot apply to Juice Diet!')
+                }
+            }
+
+            let contactButton = document.querySelector("button");
+
+            contactButton.addEventListener("click", contuckUs);
+
+        </script>
+        <p>
+            Coded by Elen Paschenko
+        </p>
+    </div>
+</body>
+
+</html>
